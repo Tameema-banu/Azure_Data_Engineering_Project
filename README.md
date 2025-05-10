@@ -4,6 +4,7 @@
 
 This project showcases a robust data engineering pipeline built on **Azure** and **Databricks**, implementing the **Medallion Architecture** (Bronze, Silver, Gold) to process and analyze **Netflix data**. It integrates services such as **Azure Data Factory**, **Azure Data Lake Storage (ADLS)**, **Databricks Autoloader**, **Delta Live Tables**, and **Unity Catalog** to ensure scalable, automated, and governed data workflows.
 
+--
 
 ## 🏗️ Architecture & Pipeline Flow
 
@@ -35,6 +36,8 @@ This project showcases a robust data engineering pipeline built on **Azure** and
 - Final curated datasets were saved in the **Gold container** 
 - **Databricks Workflows** were used to **orchestrate and schedule** regular job runs for data freshness.
 - The refined data was made available for **Power BI reporting** and **data warehousing** via **Azure Synapse Analytics**.
+
+--
 
 ## 🛠️ Tools & Technologies Used
 
