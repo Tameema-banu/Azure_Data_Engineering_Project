@@ -38,23 +38,16 @@ This project showcases a robust data engineering pipeline built on **Azure** and
 
 ## 🛠️ Tools & Technologies Used
 
-- **Azure Data Factory (ADF)**  
-  For orchestrating data ingestion from GitHub into the Bronze layer.
+- **Azure Data Factory (ADF)** : For orchestrating data ingestion from GitHub into the Bronze layer.
 
-- **Azure Data Lake Storage Gen2 (ADLS)**  
-  Hierarchical storage for Bronze, Silver, and Gold layers, supporting Medallion Architecture.
+- **Azure Data Lake Storage Gen2 (ADLS)** : Hierarchical storage for Bronze, Silver, and Gold layers, supporting Medallion Architecture.
 
-- **Azure Databricks**  
-  Unified platform for scalable data processing, transformation, and analytics.
+- **Azure Databricks** : Unified platform for scalable data processing, transformation, and analytics.
 
-- **Delta Lake**  
-  Provides ACID transactions and scalable metadata handling on top of data lakes.
+- **Delta Lake** : Provides ACID transactions and scalable metadata handling on top of data lakes.
 
-- **Delta Live Tables (DLT)**  
-  Enables declarative real-time data pipelines with quality enforcement and lineage tracking.
+- **Delta Live Tables (DLT)** : Enables declarative real-time data pipelines with quality enforcement and lineage tracking.
 
-- **Unity Catalog**  
-  Centralized data governance for fine-grained access control and metadata management.
+- **Unity Catalog** : Centralized data governance for fine-grained access control and metadata management.
 
-- **Databricks Workflows**  
-  Pipeline orchestration tool for scheduling and managing jobs within Databricks.
+- **Databricks Workflows** : Pipeline orchestration tool for scheduling and managing jobs within Databricks.
