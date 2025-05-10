@@ -16,7 +16,6 @@ This project showcases a robust data engineering pipeline built on **Azure** and
 - A linked service connection was established: `GitHub → ADF → ADLS`.
 - This layer stores **raw, unprocessed data** to serve as the foundational stage for downstream transformation.
 
----
 
 ### 🥈 Silver Layer – Data Transformation
 
@@ -26,7 +25,6 @@ This project showcases a robust data engineering pipeline built on **Azure** and
 - Data was **cleaned, transformed, and normalized** using **Databricks notebooks** and **Workflows**.
 - The processed output was stored in the **Silver container** as **Delta Tables**, enabling **versioned, query-optimized storage**.
 
----
 
 ### 🥇 Gold Layer – Data Aggregation & Serving
 
