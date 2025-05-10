@@ -54,3 +54,10 @@ This project showcases a robust data engineering pipeline built on **Azure** and
 - **Unity Catalog** : Centralized data governance for fine-grained access control and metadata management.
 
 - **Databricks Workflows** : Pipeline orchestration tool for scheduling and managing jobs within Databricks.
+
+---
+
+  ## ✅ Conclusion
+
+This project demonstrates how to design and implement a modern data pipeline using the Medallion Architecture with Azure and Databricks. From raw data ingestion to curated analytics-ready datasets, the pipeline ensures scalability, governance, and performance across all layers.
+
