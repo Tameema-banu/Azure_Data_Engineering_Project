@@ -9,7 +9,7 @@ This project showcases a robust data engineering pipeline built on **Azure** and
 
 ---
 
-### 🔸 Bronze Layer – Data Ingestion
+### 🥉 Bronze Layer – Data Ingestion
 
 - A dedicated **Azure Resource Group** and **Azure Data Lake Storage (ADLS)** account were set up with containers for `raw`, `bronze`, `silver`, and `gold` layers.
 - **Azure Data Factory (ADF)** pipelines were used to ingest data from **GitHub's  as public API**
@@ -18,7 +18,7 @@ This project showcases a robust data engineering pipeline built on **Azure** and
 
 ---
 
-### ⚙️ Silver Layer – Data Transformation
+### 🥈 Silver Layer – Data Transformation
 
 - A **Unity Catalog** was created to enable **fine-grained access control** and centralized governance across the Databricks workspace.
 - A **Databricks Access Connector** was configured to allow **secure access** between Databricks and ADLS.
