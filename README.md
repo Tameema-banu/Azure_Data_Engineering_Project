@@ -7,7 +7,9 @@ This project showcases a robust data engineering pipeline built on **Azure** and
 
 ## 🏗️ Architecture & Pipeline Flow
 
+
 ![Architechture](Screenshots/architechture.jpeg)
+
 
 ### 🥉 Bronze Layer – Data Ingestion
 
